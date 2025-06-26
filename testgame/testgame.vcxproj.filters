@@ -30,9 +30,15 @@
     <ClCompile Include="TextureManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -41,6 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="assets\Player01Sprite.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\Player02Sprite.png">
       <Filter>assets</Filter>
     </Image>
   </ItemGroup>

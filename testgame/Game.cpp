@@ -1,9 +1,11 @@
 #include "Game.h"
 #include "TextureManager.h"
+#include "GameObject.h"
 #include <iostream>
 
-SDL_Texture* playerTex;
-SDL_Rect srcR, destR;
+GameObject* player;
+GameObject* enemy;
+
 int cnt = 0;
 
 Game::Game() {}
@@ -26,8 +28,8 @@ void Game::init(const char* title, int width, int height, bool fullscreen) {
         isRunning = true;
     }
 
-    playerTex = TextureManager::LoadTexture("assets/Player01Sprite.png", renderer);
-
+    player = new GameObject("assets/Player01Sprite.png", renderer, 0, 0);
+    enemy = new GameObject("assets/Player02Sprite.png", renderer, 50, 50);
 }
 
 void Game::handleEvents() {
@@ -40,24 +42,19 @@ void Game::handleEvents() {
 }
 
 void Game::update() {
-    cnt++;
-    destR.h = 64;
-    destR.w = 64;
 
-    destR.x = cnt;
+
+    player->update();
+    enemy->update();
 
     // Your update logic here
-    std::cout << cnt << std::endl;
 }
 
 void Game::render() {
     SDL_RenderClear(renderer);
-    //tilemap/background
-    //player
-    //enemy
 
-    SDL_RenderCopy(renderer, playerTex, NULL, &destR);
-
+    player->render();
+    enemy->render();
 
     SDL_RenderPresent(renderer);
 }
