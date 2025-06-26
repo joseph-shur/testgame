@@ -33,6 +33,9 @@
     <ClCompile Include="GameObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -41,15 +44,27 @@
     <ClInclude Include="GameObject.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="assets\Player01Sprite.png">
+    <Image Include="assets\enemy.png">
       <Filter>assets</Filter>
     </Image>
-    <Image Include="assets\Player02Sprite.png">
+    <Image Include="assets\player.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\dirt.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\grass.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\water.png">
       <Filter>assets</Filter>
     </Image>
   </ItemGroup>

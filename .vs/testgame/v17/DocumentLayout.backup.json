@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Dev\\testgame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|C:\\Dev\\testgame\\testgame\\Map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|solutionrelative:testgame\\Map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|C:\\Dev\\testgame\\testgame\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|solutionrelative:testgame\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|C:\\Dev\\testgame\\testgame\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|solutionrelative:testgame\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|C:\\Dev\\testgame\\testgame\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|solutionrelative:testgame\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|C:\\Dev\\testgame\\testgame\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|solutionrelative:testgame\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|C:\\Dev\\testgame\\testgame\\TextureManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|solutionrelative:testgame\\TextureManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|C:\\Dev\\testgame\\testgame\\TextureManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|solutionrelative:testgame\\TextureManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|C:\\Dev\\testgame\\testgame\\Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|solutionrelative:testgame\\Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,20 +46,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Game.cpp",
-              "DocumentMoniker": "C:\\Dev\\testgame\\testgame\\Game.cpp",
-              "RelativeDocumentMoniker": "testgame\\Game.cpp",
-              "ToolTip": "C:\\Dev\\testgame\\testgame\\Game.cpp",
-              "RelativeToolTip": "testgame\\Game.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "GameObject.cpp",
+              "DocumentMoniker": "C:\\Dev\\testgame\\testgame\\GameObject.cpp",
+              "RelativeDocumentMoniker": "testgame\\GameObject.cpp",
+              "ToolTip": "C:\\Dev\\testgame\\testgame\\GameObject.cpp",
+              "RelativeToolTip": "testgame\\GameObject.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-26T21:13:29.46Z",
+              "WhenOpened": "2025-06-26T21:56:59.764Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\Dev\\testgame\\testgame\\Game.cpp",
+              "RelativeDocumentMoniker": "testgame\\Game.cpp",
+              "ToolTip": "C:\\Dev\\testgame\\testgame\\Game.cpp",
+              "RelativeToolTip": "testgame\\Game.cpp",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-26T21:56:37.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Game.h",
               "DocumentMoniker": "C:\\Dev\\testgame\\testgame\\Game.h",
               "RelativeDocumentMoniker": "testgame\\Game.h",
@@ -51,20 +80,59 @@
               "RelativeToolTip": "testgame\\Game.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-26T21:11:06.611Z",
+              "WhenOpened": "2025-06-26T21:56:33.768Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameObject.h",
-              "DocumentMoniker": "C:\\Dev\\testgame\\testgame\\GameObject.h",
-              "RelativeDocumentMoniker": "testgame\\GameObject.h",
-              "ToolTip": "C:\\Dev\\testgame\\testgame\\GameObject.h",
-              "RelativeToolTip": "testgame\\GameObject.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABFAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "TextureManager.cpp",
+              "DocumentMoniker": "C:\\Dev\\testgame\\testgame\\TextureManager.cpp",
+              "RelativeDocumentMoniker": "testgame\\TextureManager.cpp",
+              "ToolTip": "C:\\Dev\\testgame\\testgame\\TextureManager.cpp",
+              "RelativeToolTip": "testgame\\TextureManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-26T21:48:38.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Map.cpp",
+              "DocumentMoniker": "C:\\Dev\\testgame\\testgame\\Map.cpp",
+              "RelativeDocumentMoniker": "testgame\\Map.cpp",
+              "ToolTip": "C:\\Dev\\testgame\\testgame\\Map.cpp",
+              "RelativeToolTip": "testgame\\Map.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-26T21:38:08.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TextureManager.h",
+              "DocumentMoniker": "C:\\Dev\\testgame\\testgame\\TextureManager.h",
+              "RelativeDocumentMoniker": "testgame\\TextureManager.h",
+              "ToolTip": "C:\\Dev\\testgame\\testgame\\TextureManager.h",
+              "RelativeToolTip": "testgame\\TextureManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-26T21:10:30.379Z",
+              "WhenOpened": "2025-06-26T21:48:12.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Map.h",
+              "DocumentMoniker": "C:\\Dev\\testgame\\testgame\\Map.h",
+              "RelativeDocumentMoniker": "testgame\\Map.h",
+              "ToolTip": "C:\\Dev\\testgame\\testgame\\Map.h",
+              "RelativeToolTip": "testgame\\Map.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-26T21:35:33.383Z",
               "EditorCaption": ""
             }
           ]
