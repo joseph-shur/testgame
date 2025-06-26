@@ -132,6 +132,8 @@
   <ItemGroup>
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="TextureManager.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h" />
@@ -140,7 +142,6 @@
     <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\assets\Player01Sprite.png" />
     <Image Include="assets\Player01Sprite.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,2 +1,6 @@
 ﻿  Game.cpp
+  TextureManager.cpp
+  TextureManager.h
+  Generating Code...
+x64\Debug\TextureManager.obj : warning LNK4042: object specified more than once; extras ignored
   testgame.vcxproj -> C:\Dev\testgame\x64\Debug\testgame.exe

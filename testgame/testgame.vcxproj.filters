@@ -24,6 +24,12 @@
     <ClCompile Include="Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TextureManager.h">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -35,9 +41,6 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="assets\Player01Sprite.png">
-      <Filter>assets</Filter>
-    </Image>
-    <Image Include="..\assets\Player01Sprite.png">
       <Filter>assets</Filter>
     </Image>
   </ItemGroup>

@@ -1,4 +1,5 @@
 #include "Game.h"
+#include "TextureManager.h"
 #include <iostream>
 
 SDL_Texture* playerTex;
@@ -25,13 +26,7 @@ void Game::init(const char* title, int width, int height, bool fullscreen) {
         isRunning = true;
     }
 
-    SDL_Surface* tempSurface = IMG_Load("assets/Player01Sprite.png");
-    if (!tempSurface) {
-        std::cout << "IMG_Load error: " << IMG_GetError() << std::endl;
-    }
-
-    playerTex = SDL_CreateTextureFromSurface(renderer, tempSurface);
-    SDL_FreeSurface(tempSurface);
+    playerTex = TextureManager::LoadTexture("assets/Player01Sprite.png", renderer);
 
 }
 
@@ -49,7 +44,7 @@ void Game::update() {
     destR.h = 64;
     destR.w = 64;
 
-    destR.x = cnt/4;
+    destR.x = cnt;
 
     // Your update logic here
     std::cout << cnt << std::endl;
