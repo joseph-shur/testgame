@@ -22,8 +22,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -32,7 +36,7 @@
               "RelativeDocumentMoniker": "testgame\\Game.h",
               "ToolTip": "C:\\Dev\\testgame\\testgame\\Game.h",
               "RelativeToolTip": "testgame\\Game.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-26T00:35:53.128Z",
               "EditorCaption": ""
@@ -45,14 +49,10 @@
               "RelativeDocumentMoniker": "testgame\\Game.cpp",
               "ToolTip": "C:\\Dev\\testgame\\testgame\\Game.cpp",
               "RelativeToolTip": "testgame\\Game.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC4AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-26T00:35:44.92Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
@@ -62,7 +62,7 @@
               "RelativeDocumentMoniker": "testgame\\main.cpp",
               "ToolTip": "C:\\Dev\\testgame\\testgame\\main.cpp",
               "RelativeToolTip": "testgame\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-25T23:58:15.569Z",
               "EditorCaption": ""

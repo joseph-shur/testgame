@@ -1,6 +1,10 @@
 #include "Game.h"
 #include <iostream>
 
+SDL_Texture* playerTex;
+SDL_Rect srcR, destR;
+int cnt = 0;
+
 Game::Game() {}
 
 Game::~Game() {}
@@ -11,33 +15,24 @@ void Game::init(const char* title, int width, int height, bool fullscreen) {
         flags = SDL_WINDOW_FULLSCREEN;
     }
 
-    if (SDL_Init(SDL_INIT_VIDEO) == 0) {
-        SDL_Log("Subsystems initialized!");
-
-        // SDL3: xpos, ypos removed
-        window = SDL_CreateWindow(title, 100, 100, width, height, flags);
-        if (window) {
-            SDL_Log("Window created!");
-        }
-        else {
-            SDL_Log("Failed to create window: %s", SDL_GetError());
-        }
-
-        renderer = SDL_CreateRenderer(window, NULL, 0);
+    if (SDL_Init(SDL_INIT_EVERYTHING) == 0) {
+        window = SDL_CreateWindow(title, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, width, height, flags);
+        renderer = SDL_CreateRenderer(window, -1, 0);
         if (renderer) {
             SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
-            SDL_Log("Renderer created!");
-        }
-        else {
-            SDL_Log("Failed to create renderer: %s", SDL_GetError());
         }
 
-        isRunning = (window != nullptr && renderer != nullptr);
+        isRunning = true;
     }
-    else {
-        SDL_Log("SDL_Init failed: %s", SDL_GetError());
-        isRunning = false;
+
+    SDL_Surface* tempSurface = IMG_Load("assets/Player01Sprite.png");
+    if (!tempSurface) {
+        std::cout << "IMG_Load error: " << IMG_GetError() << std::endl;
     }
+
+    playerTex = SDL_CreateTextureFromSurface(renderer, tempSurface);
+    SDL_FreeSurface(tempSurface);
+
 }
 
 void Game::handleEvents() {
@@ -50,12 +45,25 @@ void Game::handleEvents() {
 }
 
 void Game::update() {
+    cnt++;
+    destR.h = 64;
+    destR.w = 64;
+
+    destR.x = cnt/4;
+
     // Your update logic here
+    std::cout << cnt << std::endl;
 }
 
 void Game::render() {
     SDL_RenderClear(renderer);
-    // Your rendering code here
+    //tilemap/background
+    //player
+    //enemy
+
+    SDL_RenderCopy(renderer, playerTex, NULL, &destR);
+
+
     SDL_RenderPresent(renderer);
 }
 

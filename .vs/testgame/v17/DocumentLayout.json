@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Dev\\testgame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|C:\\Dev\\testgame\\testgame\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|solutionrelative:testgame\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|C:\\Dev\\testgame\\testgame\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|solutionrelative:testgame\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -26,47 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Dev\\testgame\\testgame\\.gitignore",
-              "RelativeDocumentMoniker": "testgame\\.gitignore",
-              "ToolTip": "C:\\Dev\\testgame\\testgame\\.gitignore",
-              "RelativeToolTip": "testgame\\.gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-06-26T04:54:44.803Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Game.h",
-              "DocumentMoniker": "C:\\Dev\\testgame\\testgame\\Game.h",
-              "RelativeDocumentMoniker": "testgame\\Game.h",
-              "ToolTip": "C:\\Dev\\testgame\\testgame\\Game.h",
-              "RelativeToolTip": "testgame\\Game.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-26T00:35:53.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Game.cpp",
-              "DocumentMoniker": "C:\\Dev\\testgame\\testgame\\Game.cpp",
-              "RelativeDocumentMoniker": "testgame\\Game.cpp",
-              "ToolTip": "C:\\Dev\\testgame\\testgame\\Game.cpp",
-              "RelativeToolTip": "testgame\\Game.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC4AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-26T00:35:44.92Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -74,12 +31,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Game.h",
+              "DocumentMoniker": "C:\\Dev\\testgame\\testgame\\Game.h",
+              "RelativeDocumentMoniker": "testgame\\Game.h",
+              "ToolTip": "C:\\Dev\\testgame\\testgame\\Game.h",
+              "RelativeToolTip": "testgame\\Game.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-26T00:35:53.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\Dev\\testgame\\testgame\\Game.cpp",
+              "RelativeDocumentMoniker": "testgame\\Game.cpp",
+              "ToolTip": "C:\\Dev\\testgame\\testgame\\Game.cpp",
+              "RelativeToolTip": "testgame\\Game.cpp",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-26T00:35:44.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Dev\\testgame\\testgame\\main.cpp",
               "RelativeDocumentMoniker": "testgame\\main.cpp",
               "ToolTip": "C:\\Dev\\testgame\\testgame\\main.cpp",
               "RelativeToolTip": "testgame\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-25T23:58:15.569Z",
               "EditorCaption": ""
