@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|solutionrelative:testgame\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|C:\\Dev\\testgame\\testgame\\SpriteComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|solutionrelative:testgame\\SpriteComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|C:\\Dev\\testgame\\testgame\\PositionComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|solutionrelative:testgame\\PositionComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|C:\\Dev\\testgame\\testgame\\ECS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{88939BE2-0BC1-45A0-90FB-A71D1F7F46B0}|testgame\\testgame.vcxproj|solutionrelative:testgame\\ECS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -30,15 +38,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ECS.h",
-              "DocumentMoniker": "C:\\Dev\\testgame\\testgame\\ECS.h",
-              "RelativeDocumentMoniker": "testgame\\ECS.h",
-              "ToolTip": "C:\\Dev\\testgame\\testgame\\ECS.h",
-              "RelativeToolTip": "testgame\\ECS.h",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAGYAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "PositionComponent.h",
+              "DocumentMoniker": "C:\\Dev\\testgame\\testgame\\PositionComponent.h",
+              "RelativeDocumentMoniker": "testgame\\PositionComponent.h",
+              "ToolTip": "C:\\Dev\\testgame\\testgame\\PositionComponent.h",
+              "RelativeToolTip": "testgame\\PositionComponent.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-29T01:09:22.78Z",
+              "WhenOpened": "2025-06-29T01:48:00.42Z",
               "EditorCaption": ""
             },
             {
@@ -49,22 +57,47 @@
               "RelativeDocumentMoniker": "testgame\\Game.cpp",
               "ToolTip": "C:\\Dev\\testgame\\testgame\\Game.cpp",
               "RelativeToolTip": "testgame\\Game.cpp",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAC4AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADUAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-29T01:05:10.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Components.h",
               "DocumentMoniker": "C:\\Dev\\testgame\\testgame\\Components.h",
               "RelativeDocumentMoniker": "testgame\\Components.h",
               "ToolTip": "C:\\Dev\\testgame\\testgame\\Components.h",
               "RelativeToolTip": "testgame\\Components.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-29T01:00:23.238Z",
+              "WhenOpened": "2025-06-29T01:00:23.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SpriteComponent.h",
+              "DocumentMoniker": "C:\\Dev\\testgame\\testgame\\SpriteComponent.h",
+              "RelativeDocumentMoniker": "testgame\\SpriteComponent.h",
+              "ToolTip": "C:\\Dev\\testgame\\testgame\\SpriteComponent.h",
+              "RelativeToolTip": "testgame\\SpriteComponent.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-29T01:47:39.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ECS.h",
+              "DocumentMoniker": "C:\\Dev\\testgame\\testgame\\ECS.h",
+              "RelativeDocumentMoniker": "testgame\\ECS.h",
+              "ToolTip": "C:\\Dev\\testgame\\testgame\\ECS.h",
+              "RelativeToolTip": "testgame\\ECS.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-29T17:29:54.941Z",
               "EditorCaption": ""
             }
           ]
