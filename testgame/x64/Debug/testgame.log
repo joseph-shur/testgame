@@ -1,2 +1,17 @@
 ﻿  Game.cpp
+C:\Dev\testgame\testgame\ECS.h(81,33): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+C:\Dev\testgame\testgame\ECS.h(81,33): warning C4244:         with
+C:\Dev\testgame\testgame\ECS.h(81,33): warning C4244:         [
+C:\Dev\testgame\testgame\ECS.h(81,33): warning C4244:             _Ty=int
+C:\Dev\testgame\testgame\ECS.h(81,33): warning C4244:         ]
+  (compiling source file 'Game.cpp')
+      C:\Dev\testgame\testgame\ECS.h(81,33):
+      the template instantiation context (the oldest one first) is
+          C:\Dev\testgame\testgame\Game.cpp(36,12):
+          see reference to function template instantiation 'T &Entity::addComponent<TransformComponent,int,int>(int &&,int &&)' being compiled
+          with
+          [
+              T=TransformComponent
+          ]
+  
   testgame.vcxproj -> C:\Dev\testgame\x64\Debug\testgame.exe
